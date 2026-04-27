@@ -29,13 +29,13 @@ function Home() {
         </article>
 
         <aside className="highlight-card">
-          <p className="section-label">Operational overview</p>
-          <h2>Built to present a modern digital front desk and care coordination experience.</h2>
+          <p className="section-label">Care coordination</p>
+          <h2>Designed to support hospital teams with faster intake, scheduling, and patient flow visibility.</h2>
           <ul>
-            <li>Responsive staff interface across desktop and mobile layouts</li>
-            <li>Protected dashboard access for internal users</li>
-            <li>Structured patient, doctor, and appointment management flows</li>
-            <li>Fast static deployment for demos, reviews, and presentations</li>
+            <li>Centralized patient information for front-desk and care teams</li>
+            <li>Clear doctor availability and consultation planning</li>
+            <li>Organized appointment scheduling for daily operations</li>
+            <li>Accessible workflow view for admissions, visits, and follow-ups</li>
           </ul>
         </aside>
       </div>

@@ -44,8 +44,8 @@ function Register() {
       <p className="section-label">Registration</p>
       <h1>Create hospital staff account</h1>
       <p className="section-copy">
-        Register new staff, administrators, or support desk users for the demo
-        portal.
+        Register new staff, administrators, or reception desk users for the
+        hospital portal.
       </p>
 
       <form className="form-grid" onSubmit={handleSubmit}>

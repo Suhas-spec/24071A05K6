@@ -52,8 +52,8 @@ function Login() {
       <p className="section-label">Secure access</p>
       <h1>Login to Hospital Managment System-React</h1>
       <p className="section-copy">
-        Use the demo admin account or any user you register from the
-        registration page.
+        Sign in with an authorized staff account to access hospital operations
+        and patient management tools.
       </p>
 
       <form className="form-grid" onSubmit={handleSubmit}>
