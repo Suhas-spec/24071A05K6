@@ -2,7 +2,7 @@
 
 This repository contains two separate projects:
 
-- `frontend/` - CityCare Hospital Management System built with React
+- `hospital-management-system/` - Hospital Managment System-React built with React
 - `ServletUserDetailsApp/` - Java Servlet user details form application
 
 ---
@@ -20,14 +20,14 @@ A React hospital management system with:
 - Contact page
 - GitHub Pages deployment support
 
-This project is implemented in the `frontend` folder and works as a static React app using local storage, so it can be deployed directly to GitHub Pages.
+This project is implemented in the `hospital-management-system` folder and works as a static React app using local storage, so it can be deployed directly to GitHub Pages.
 
 ## Project Structure
 
 ```text
 New project/
 ├── ServletUserDetailsApp/
-├── frontend/
+├── hospital-management-system/
 │   ├── public/
 │   ├── src/
 │   ├── package.json
@@ -68,8 +68,8 @@ cd hospital-management-system
 ### 2. Create the React app
 
 ```bash
-npx create-react-app frontend
-cd frontend
+npx create-react-app hospital-management-system
+cd hospital-management-system
 ```
 
 ### 3. Install required packages
@@ -82,23 +82,23 @@ npm install react-router-dom gh-pages
 
 Copy the code from these files in this workspace into the same files in your new project:
 
-- `frontend/src/App.js`
-- `frontend/src/index.js`
-- `frontend/src/styles.css`
-- `frontend/src/components/Layout.js`
-- `frontend/src/components/ProtectedRoute.js`
-- `frontend/src/context/AuthContext.js`
-- `frontend/src/data/mockData.js`
-- `frontend/src/pages/Home.js`
-- `frontend/src/pages/Register.js`
-- `frontend/src/pages/Login.js`
-- `frontend/src/pages/Dashboard.js`
-- `frontend/src/pages/Patients.js`
-- `frontend/src/pages/Doctors.js`
-- `frontend/src/pages/Appointments.js`
-- `frontend/src/pages/Contact.js`
-- `frontend/public/index.html`
-- `frontend/package.json`
+- `hospital-management-system/src/App.js`
+- `hospital-management-system/src/index.js`
+- `hospital-management-system/src/styles.css`
+- `hospital-management-system/src/components/Layout.js`
+- `hospital-management-system/src/components/ProtectedRoute.js`
+- `hospital-management-system/src/context/AuthContext.js`
+- `hospital-management-system/src/data/mockData.js`
+- `hospital-management-system/src/pages/Home.js`
+- `hospital-management-system/src/pages/Register.js`
+- `hospital-management-system/src/pages/Login.js`
+- `hospital-management-system/src/pages/Dashboard.js`
+- `hospital-management-system/src/pages/Patients.js`
+- `hospital-management-system/src/pages/Doctors.js`
+- `hospital-management-system/src/pages/Appointments.js`
+- `hospital-management-system/src/pages/Contact.js`
+- `hospital-management-system/public/index.html`
+- `hospital-management-system/package.json`
 
 Also create these folders if they do not exist:
 
@@ -130,7 +130,7 @@ http://localhost:3000
 
 ### Create files in VS Code
 
-Inside the `frontend/src` folder, create:
+Inside the `hospital-management-system/src` folder, create:
 
 - `components/Layout.js`
 - `components/ProtectedRoute.js`
@@ -149,23 +149,23 @@ Then paste the code from this workspace into those files.
 
 ## Main Files To Copy From This Workspace
 
-- [App.js](/Users/suhasy/Documents/New project/frontend/src/App.js)
-- [index.js](/Users/suhasy/Documents/New project/frontend/src/index.js)
-- [styles.css](/Users/suhasy/Documents/New project/frontend/src/styles.css)
-- [Layout.js](/Users/suhasy/Documents/New project/frontend/src/components/Layout.js)
-- [ProtectedRoute.js](/Users/suhasy/Documents/New project/frontend/src/components/ProtectedRoute.js)
-- [AuthContext.js](/Users/suhasy/Documents/New project/frontend/src/context/AuthContext.js)
-- [mockData.js](/Users/suhasy/Documents/New project/frontend/src/data/mockData.js)
-- [Home.js](/Users/suhasy/Documents/New project/frontend/src/pages/Home.js)
-- [Register.js](/Users/suhasy/Documents/New project/frontend/src/pages/Register.js)
-- [Login.js](/Users/suhasy/Documents/New project/frontend/src/pages/Login.js)
-- [Dashboard.js](/Users/suhasy/Documents/New project/frontend/src/pages/Dashboard.js)
-- [Patients.js](/Users/suhasy/Documents/New project/frontend/src/pages/Patients.js)
-- [Doctors.js](/Users/suhasy/Documents/New project/frontend/src/pages/Doctors.js)
-- [Appointments.js](/Users/suhasy/Documents/New project/frontend/src/pages/Appointments.js)
-- [Contact.js](/Users/suhasy/Documents/New project/frontend/src/pages/Contact.js)
-- [package.json](/Users/suhasy/Documents/New project/frontend/package.json)
-- [index.html](/Users/suhasy/Documents/New project/frontend/public/index.html)
+- [App.js](/Users/suhasy/Documents/New project/hospital-management-system/src/App.js)
+- [index.js](/Users/suhasy/Documents/New project/hospital-management-system/src/index.js)
+- [styles.css](/Users/suhasy/Documents/New project/hospital-management-system/src/styles.css)
+- [Layout.js](/Users/suhasy/Documents/New project/hospital-management-system/src/components/Layout.js)
+- [ProtectedRoute.js](/Users/suhasy/Documents/New project/hospital-management-system/src/components/ProtectedRoute.js)
+- [AuthContext.js](/Users/suhasy/Documents/New project/hospital-management-system/src/context/AuthContext.js)
+- [mockData.js](/Users/suhasy/Documents/New project/hospital-management-system/src/data/mockData.js)
+- [Home.js](/Users/suhasy/Documents/New project/hospital-management-system/src/pages/Home.js)
+- [Register.js](/Users/suhasy/Documents/New project/hospital-management-system/src/pages/Register.js)
+- [Login.js](/Users/suhasy/Documents/New project/hospital-management-system/src/pages/Login.js)
+- [Dashboard.js](/Users/suhasy/Documents/New project/hospital-management-system/src/pages/Dashboard.js)
+- [Patients.js](/Users/suhasy/Documents/New project/hospital-management-system/src/pages/Patients.js)
+- [Doctors.js](/Users/suhasy/Documents/New project/hospital-management-system/src/pages/Doctors.js)
+- [Appointments.js](/Users/suhasy/Documents/New project/hospital-management-system/src/pages/Appointments.js)
+- [Contact.js](/Users/suhasy/Documents/New project/hospital-management-system/src/pages/Contact.js)
+- [package.json](/Users/suhasy/Documents/New project/hospital-management-system/package.json)
+- [index.html](/Users/suhasy/Documents/New project/hospital-management-system/public/index.html)
 
 ## Deploy To GitHub Pages
 
@@ -181,7 +181,7 @@ hospital-management-system
 
 ### 2. Update your GitHub username in `package.json`
 
-Open `frontend/package.json` and change:
+Open `hospital-management-system/package.json` and change:
 
 ```json
 "homepage": "https://your-github-username.github.io/hospital-management-system"
@@ -210,10 +210,10 @@ git push -u origin main
 
 ### 4. Deploy the React app
 
-Now go into the frontend folder and run:
+Now go into the hospital app folder and run:
 
 ```bash
-cd frontend
+cd hospital-management-system
 npm run deploy
 ```
 

@@ -2,7 +2,7 @@
   "name": "hospital-managment-system-react",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://your-github-username.github.io/hospital-management-system",
+  "homepage": "https://suhas-spec.github.io/24071A05K6/hospital-management-system",
   "dependencies": {
     "axios": "^1.8.4",
     "gh-pages": "^6.2.0",
