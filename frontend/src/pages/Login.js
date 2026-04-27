@@ -50,7 +50,7 @@ function Login() {
   return (
     <section className="auth-card">
       <p className="section-label">Secure access</p>
-      <h1>Login to CityCare HMS</h1>
+      <h1>Login to Hospital Managment System-React</h1>
       <p className="section-copy">
         Use the demo admin account or any user you register from the
         registration page.

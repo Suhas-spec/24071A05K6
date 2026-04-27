@@ -8,9 +8,9 @@ function Home() {
           <p className="section-label">Hospital management system</p>
           <h1>Manage patients, doctors, and appointments in one dashboard.</h1>
           <p className="section-copy">
-            CityCare HMS is a React application built for registration, login,
-            patient records, doctor availability, appointment booking, and
-            contact support.
+            Hospital Managment System-React is a React application built for
+            registration, login, patient records, doctor availability,
+            appointment booking, and contact support.
           </p>
 
           <div className="hero-actions">

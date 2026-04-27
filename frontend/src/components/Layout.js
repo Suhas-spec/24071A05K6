@@ -17,8 +17,8 @@ function Layout() {
           <div className="brand-block">
             <div className="brand-icon">+</div>
             <div>
-              <div className="brand-name">CityCare HMS</div>
-              <div className="brand-copy">Smart hospital management portal</div>
+              <div className="brand-name">Hospital Managment System-React</div>
+              <div className="brand-copy">Hospital management portal</div>
             </div>
           </div>
 
@@ -67,8 +67,7 @@ function Layout() {
 
       <footer className="site-footer">
         <div className="site-footer-inner">
-          <p>CityCare Hospital Management System</p>
-          <p>Built with React routing, local storage, and GitHub Pages support.</p>
+          <p>24071A05K6</p>
         </div>
       </footer>
     </div>
