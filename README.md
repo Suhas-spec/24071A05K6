@@ -1,3 +1,12 @@
+# Projects In This Repository
+
+This repository contains two separate projects:
+
+- `frontend/` - CityCare Hospital Management System built with React
+- `ServletUserDetailsApp/` - Java Servlet user details form application
+
+---
+
 # CityCare Hospital Management System
 
 A React hospital management system with:
@@ -17,6 +26,7 @@ This project is implemented in the `frontend` folder and works as a static React
 
 ```text
 New project/
+├── ServletUserDetailsApp/
 ├── frontend/
 │   ├── public/
 │   ├── src/
