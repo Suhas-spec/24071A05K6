@@ -5,38 +5,37 @@ function Home() {
     <section className="page-stack">
       <div className="hero-grid">
         <article className="hero-card">
-          <p className="section-label">Hospital management system</p>
-          <h1>Manage patients, doctors, and appointments in one dashboard.</h1>
+          <p className="section-label">Clinical operations platform</p>
+          <h1>Coordinate patient care, scheduling, and staff workflows from one secure workspace.</h1>
           <p className="section-copy">
-            Hospital Managment System-React is a React application built for
-            registration, login, patient records, doctor availability,
-            appointment booking, and contact support.
+            Hospital Managment System-React helps hospitals centralize patient
+            records, doctor availability, appointment management, and front-desk
+            communication in a clean operational dashboard.
           </p>
 
           <div className="hero-actions">
             <Link to="/register" className="primary-button">
-              Create account
+              Register staff
             </Link>
             <Link to="/login" className="secondary-button">
-              Login to dashboard
+              Open dashboard
             </Link>
           </div>
 
           <div className="note-card">
-            <strong>Included modules:</strong> registration, login, patient
-            details, doctor list, appointment booking, routing, and contact
-            page.
+            <strong>Core modules:</strong> secure login, patient records, doctor
+            directory, appointment scheduling, and support contact workflows.
           </div>
         </article>
 
         <aside className="highlight-card">
-          <p className="section-label">Why this project</p>
-          <h2>Perfect for college demo, portfolio, or mini project submission.</h2>
+          <p className="section-label">Operational overview</p>
+          <h2>Built to present a modern digital front desk and care coordination experience.</h2>
           <ul>
-            <li>Responsive pages built with React Router</li>
-            <li>Protected dashboard after login</li>
-            <li>Local storage support for demo data</li>
-            <li>Ready for GitHub Pages deployment</li>
+            <li>Responsive staff interface across desktop and mobile layouts</li>
+            <li>Protected dashboard access for internal users</li>
+            <li>Structured patient, doctor, and appointment management flows</li>
+            <li>Fast static deployment for demos, reviews, and presentations</li>
           </ul>
         </aside>
       </div>
@@ -44,15 +43,15 @@ function Home() {
       <div className="cards-grid">
         <article className="info-card">
           <h3>Patient Management</h3>
-          <p>Store basic patient details, illness information, and admissions.</p>
+          <p>Maintain organized patient profiles, clinical notes, and visit context.</p>
         </article>
         <article className="info-card">
           <h3>Doctor Directory</h3>
-          <p>Browse specialists with schedules, experience, and availability.</p>
+          <p>Review specialist coverage, experience, and active consultation windows.</p>
         </article>
         <article className="info-card">
-          <h3>Smart Booking</h3>
-          <p>Book appointments instantly and review the updated schedule.</p>
+          <h3>Appointment Scheduling</h3>
+          <p>Book consultations quickly and keep upcoming schedules visible to staff.</p>
         </article>
       </div>
     </section>
