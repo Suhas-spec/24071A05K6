@@ -9,6 +9,10 @@ import Patients from "./pages/Patients";
 import Doctors from "./pages/Doctors";
 import Appointments from "./pages/Appointments";
 import Contact from "./pages/Contact";
+import Wards from "./pages/Wards";
+import Pharmacy from "./pages/Pharmacy";
+import Billing from "./pages/Billing";
+import LabReports from "./pages/LabReports";
 
 function App() {
   return (
@@ -43,6 +47,10 @@ function App() {
             </ProtectedRoute>
           }
         />
+        <Route path="wards" element={<ProtectedRoute><Wards /></ProtectedRoute>} />
+        <Route path="pharmacy" element={<ProtectedRoute><Pharmacy /></ProtectedRoute>} />
+        <Route path="billing" element={<ProtectedRoute><Billing /></ProtectedRoute>} />
+        <Route path="lab-reports" element={<ProtectedRoute><LabReports /></ProtectedRoute>} />
       </Route>
       <Route path="*" element={<Navigate to="/" replace />} />
     </Routes>

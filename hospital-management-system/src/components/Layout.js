@@ -43,6 +43,10 @@ function Layout() {
                 <NavLink to="/appointments" className="nav-link">
                   Appointments
                 </NavLink>
+                <NavLink to="/wards" className="nav-link">Wards</NavLink>
+                <NavLink to="/pharmacy" className="nav-link">Pharmacy</NavLink>
+                <NavLink to="/billing" className="nav-link">Billing</NavLink>
+                <NavLink to="/lab-reports" className="nav-link">Lab Reports</NavLink>
                 <button className="logout-button" onClick={handleLogout}>
                   Logout
                 </button>
